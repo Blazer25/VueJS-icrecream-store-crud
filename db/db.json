@@ -1,0 +1,114 @@
+{
+  "ingredientes": {
+    "recipiente": [
+      {
+        "id": 1,
+        "tipo": "Pote de 200 ml"
+      },
+      {
+        "id": 2,
+        "tipo": "Pote de 500 ml"
+      },
+      {
+        "id": 3,
+        "tipo": "Pote de 1 litro"
+      },
+      {
+        "id": 4,
+        "tipo": "Pote de 2 litros"
+      }
+    ],
+    "sorvete": [
+      {
+        "id": 1,
+        "tipo": "Chocolate"
+      },
+      {
+        "id": 2,
+        "tipo": "Morango"
+      },
+      {
+        "id": 3,
+        "tipo": "Ninho"
+      },
+      {
+        "id": 4,
+        "tipo": "Kinder Ovo"
+      }
+    ],
+    "adicional": [
+      {
+        "id": 1,
+        "tipo": "Nutella"
+      },
+      {
+        "id": 2,
+        "tipo": "Amendoim"
+      },
+      {
+        "id": 3,
+        "tipo": "Kiwi"
+      },
+      {
+        "id": 4,
+        "tipo": "Leite Condensado"
+      },
+      {
+        "id": 5,
+        "tipo": "Jujuba"
+      },
+      {
+        "id": 6,
+        "tipo": "Mel"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "FinalSorvetes": [
+    {
+      "nome": "João",
+      "recipiente": "Pote de 1 litro",
+      "sorvete": "Chocolate",
+      "adicional": "Nutella",
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "nome": "Klebersson",
+      "recipiente": "Pote de 200 ml",
+      "sorvete": "Ninho",
+      "adicional": "Kiwi",
+      "status": "Em produção",
+      "id": 2
+    },
+    {
+      "nome": "Marry",
+      "recipiente": "Pote de 2 litros",
+      "sorvete": "Morango",
+      "adicional": "Jujuba",
+      "status": "Finalizado",
+      "id": 3
+    },
+    {
+      "nome": "Jorge Vitor",
+      "recipiente": "Pote de 200 ml",
+      "sorvete": "Morango",
+      "adicional": "Mel",
+      "status": "Em produção",
+      "id": 5
+    }
+  ]
+}
